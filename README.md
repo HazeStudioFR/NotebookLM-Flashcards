@@ -106,7 +106,7 @@ async function extractFlashcards() {
             const answer = answerElement ? answerElement.textContent.trim().replace(/\s+/g, ' ') : '';
             
             if (question && answer) {
-                const cardEntry = `${question} - ${answer}`;
+                const cardEntry = `${question} | ${answer}`;
                 cards.add(cardEntry); 
                 // Log progress without flooding the console
                 if (i % 20 === 0 || i === totalCards - 1) {
