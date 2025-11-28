@@ -1,8 +1,10 @@
 # NotebookLM Flashcard Downloader
 
+
 Hello, below you will find my script to extract NoteBookLM's flashcards. This code will print the flashcards into the browser's console. You will have to copy & paste it into a text document. Please follow the instructions!   
 
 Happy studying!
+## !! As of November 2025, NotebookLM now includes a download button for flash cards in a .csv format !!
 
 ## Instructions
 1. Press the ">" next to view code below the instructions
